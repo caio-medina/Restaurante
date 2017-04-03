@@ -1,4 +1,4 @@
-package a2016_2.pooa.iff.br.restaurante;
+package a2016_2.pooa.iff.br.restaurante.activity;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -6,18 +6,20 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
 
-public class Cadastro extends AppCompatActivity {
+import a2016_2.pooa.iff.br.restaurante.R;
+
+public class Pedido extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_cadastro);
+        setContentView(R.layout.activity_pedido);
     }
 
-    public void chamaTelaCardapio(View v) {
+    public void chamaTelaConta(View v) {
         Toast.makeText(this, "Botão funcionando", Toast.LENGTH_SHORT);
 
-        Intent intent = new Intent(Cadastro.this, Cardapio.class);
+        Intent intent = new Intent(Pedido.this, Conta.class);
         startActivity(intent);
     }
 }
