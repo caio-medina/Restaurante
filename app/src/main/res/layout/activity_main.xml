@@ -18,8 +18,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="58dp"
-        android:textSize="@dimen/abc_action_button_min_width_overflow_material"
-        android:textColor="@color/abc_background_cache_hint_selector_material_dark" />
+        android:textSize="@dimen/abc_action_button_min_width_overflow_material" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -30,8 +29,7 @@
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="69dp"
-        android:textSize="@dimen/abc_dialog_padding_material"
-        android:textColor="@color/abc_background_cache_hint_selector_material_dark" />
+        android:textSize="@dimen/abc_dialog_padding_material" />
 
     <Button
         android:layout_width="wrap_content"
@@ -40,5 +38,6 @@
         android:id="@+id/btMain_cadastro"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="78dp" />
+        android:layout_marginBottom="78dp"
+        android:onClick="chamaTelaCadastro"/>
 </RelativeLayout>

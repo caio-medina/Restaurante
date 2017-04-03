@@ -22,5 +22,6 @@
         android:text="Gerar pedido"
         android:id="@+id/btCardapio_pedido"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:onClick="chamaTelaPedido"/>
 </RelativeLayout>
