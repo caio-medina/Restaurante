@@ -9,4 +9,42 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="a2016_2.pooa.iff.br.restaurante.Conta">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Conta"
+        android:id="@+id/textView8"
+        android:layout_marginTop="78dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/abc_background_cache_hint_selector_material_dark"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Total a pagar"
+        android:id="@+id/textView9"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@+id/textView8"
+        android:textColor="@color/abc_background_cache_hint_selector_material_dark"
+        android:textSize="20dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edConta_total"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/textView8" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calcular"
+        android:id="@+id/btConta_calcular"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="66dp" />
 </RelativeLayout>

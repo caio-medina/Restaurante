@@ -9,4 +9,33 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="a2016_2.pooa.iff.br.restaurante.Pedido">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Pedido"
+        android:id="@+id/textView7"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:textColor="@color/abc_background_cache_hint_selector_material_dark"
+        android:textSize="30dp" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+        android:layout_below="@+id/textView7"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="88dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Conta"
+        android:id="@+id/btPedido_conta"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="61dp" />
+
 </RelativeLayout>
